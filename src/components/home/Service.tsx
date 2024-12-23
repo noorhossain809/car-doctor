@@ -38,7 +38,7 @@ const Service = ({ className, ...props }: CardProps) => {
           believable.{" "}
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-5 my-10">
+      <div className="grid grid-cols-3 gap-10 my-10">
         <Card className={cn("w-[364px] h-[348px]", className)} {...props}>
           <CardContent className="py-4">
             <div className="">
