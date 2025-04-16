@@ -49,7 +49,12 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			'brand': {
+          primary: '#174b7d',
+          secondary: '#2a4365',
+          light: '#E8F0FE'
+        }
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
